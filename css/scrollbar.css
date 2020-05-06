@@ -1,0 +1,20 @@
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+.ScrollBar{
+    left: calc(100vw - 20px);
+    position: fixed;
+    width: 20px;
+    background-color: #999;
+    border-radius: 10px;
+}
+
+.Track{
+    top: 0;
+    left: calc(100vw - 20px);
+    height: 100vh;
+    width: 20px;
+    position: fixed;
+    
+}

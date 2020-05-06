@@ -1,0 +1,13 @@
+.Frontpage .Header{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+}
+
+.Frontpage {
+    background-image: url(img/Namnlös.png);
+    background-size: cover;
+}
