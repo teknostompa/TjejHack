@@ -62,14 +62,18 @@ footer .Mentorer {
 }
 
 footer .Mentorer .people{
-    height: 20vh;
+    height: 25vh;
     width: 100%;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 footer .Mentorer .people .person {
-    width: 30%;
+    width: 25%;
     height: 20vh;
-    margin: 0 50px;
+    margin-left: 50px;
 }
 
 footer .Mentorer .people .person img{
@@ -98,14 +102,19 @@ footer .Lärare {
 }
 
 footer .Lärare .people{
-    height: 20vh;
+    height: 25vh;
     width: 100%;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 footer .Lärare .people .person {
-    width: 30%;
+    width: 25%;
     height: 20vh;
-    margin: 0 50px;
+    margin-left: 50px;
+    float: left;
 }
 
 footer div .people .person img{
@@ -151,7 +160,7 @@ footer .Lärare .Title {
         grid-area: b;
     }
     .people .person {
-        width: 450px !important;
+        min-width: 250px !important;
         margin: 0 25px !important;
     }
     .people .person .name{
