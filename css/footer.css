@@ -1,0 +1,174 @@
+footer{
+    background-image: url(img/footer.jpg);
+    background-size: cover;
+}
+
+footer .UndervisningsMaterial{
+    width: 100%;
+    height: 30vh;
+}
+
+footer .UndervisningsMaterial .Title {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 200%;
+}
+footer .UndervisningsMaterial .material  {
+    width: 100%;
+}
+footer .UndervisningsMaterial .material a{
+    width: 20vw;
+}
+
+.materialLink{
+    font-size: 2vw;
+    color: black !important;
+    text-decoration: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh ;
+    background-color: white;
+    grid-area: b;
+    float: left;
+    margin: 0 50px;
+    border-radius: 10px;
+}
+
+.videoLink{
+    font-size: 3vw;
+    color: black !important;
+    text-decoration: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    grid-area: c;
+    float: left;
+    width: 20vw !important;
+}
+
+.videoLink .video{
+    height: 100%;
+    width: auto;
+    border-radius: 10px;
+}
+
+footer .Mentorer {
+    height: 30vh;
+    width: 100%;
+}
+
+footer .Mentorer .people{
+    height: 20vh;
+    width: 100%;
+}
+
+footer .Mentorer .people .person {
+    width: 30%;
+    height: 20vh;
+    margin: 0 50px;
+}
+
+footer .Mentorer .people .person img{
+    height: 100%;
+    width: auto;
+    float: left;
+}
+
+footer .Mentorer .people .person .name{
+    height: 100%;
+    width: 12.3vw;
+    float: left;
+    background-color: white;
+    padding: 10px;
+}
+footer .Mentorer .Title {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 200%;
+}
+
+footer .Lärare {
+    height: 30vh;
+    width: 100%;
+}
+
+footer .Lärare .people{
+    height: 20vh;
+    width: 100%;
+}
+
+footer .Lärare .people .person {
+    width: 30%;
+    height: 20vh;
+    margin: 0 50px;
+}
+
+footer div .people .person img{
+    height: 100%;
+    width: auto;
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+footer div .people .person .name{
+    height: 100%;
+    width: 12.3vw;
+    float: left;
+    background-color: white;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+footer .Lärare .Title {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 200%;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .material{
+        display: grid;
+        grid-template-areas: "a b";
+    }
+    .material .materialLink{
+        grid-area: a;
+    }
+
+
+    footer .UndervisningsMaterial .material a{
+        width: 400px !important;
+        font-size: 5vw;
+    }
+    .material .videoLink{
+        grid-area: b;
+    }
+    .people .person {
+        width: 450px !important;
+        margin: 0 25px !important;
+    }
+    .people .person .name{
+        width: auto !important;
+        max-width: 240px;
+        font-size: 4vw;
+    }
+    footer .Title{
+        font-size: 7vw !important;
+        margin: 10px 0 20px 10px !important;
+        
+    }
+    footer .material {
+        overflow-x: scroll;
+    }
+    footer .people {
+        overflow-x: scroll;
+        height: 250px;
+    }
+}

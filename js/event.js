@@ -9,8 +9,6 @@ var events = [{
     eventTime: '04 Dec 2022 16:00'
 }]
 
-
-
 var nonExpiredEvents = [];
 var selectedEvent = 0;
 
@@ -50,7 +48,7 @@ TimeElement.style.height = "100vh";
 var Time = document.createElement("div");
 Time.style.height = "100vh";
 var TextElement = document.createElement("p");
-TextElement.style.height = "100vh";
+TextElement.style.height = "30vh";
 TextElement.style.fontSize = "100px";
 TextElement.style.display = "flex";
 TextElement.style.justifyContent = "center";
@@ -85,7 +83,7 @@ function updateTime(){
         }
         
 
-        TextElement.innerHTML = days + ":" + hours + ":" + miniutes + ":" + seconds;
+        TextElement.innerHTML = `${days}:${hours}:${miniutes}:${seconds}`;
         setTimeout(function(){ updateTime(); }, 1000);
     }else{
         TextElement.innerHTML = "Eventet har börjat!";

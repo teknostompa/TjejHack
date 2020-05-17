@@ -1,6 +1,6 @@
 .Countdown .Events{
     width: 100%;
-    height: 15%;
+    height: 30%;
     position: absolute;
     bottom: 0px;
     background-color: white;
@@ -8,9 +8,13 @@
     justify-content: center;
 }
 
+.Countdown{
+    height: 50vh !important;
+}
+
 .Timer{
     background-color: rgb(228, 228, 228);
-    height: 85%;
+    height: 70%;
 }
 
 .Timer div div p{
